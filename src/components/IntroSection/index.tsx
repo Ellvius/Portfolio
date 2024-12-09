@@ -6,9 +6,9 @@ const IntroSection = () => {
           
           {/* Left Section - About Me */}
           <div className="w-full md:w-1/2 mt-6 md:mt-0">
-            <h2 className="text-4xl font-bold mb-4">Hi! I'm Lishin V S</h2>
+            <h2 className="text-4xl font-bold mb-4">Hi! I&apos;m Lishin V S</h2>
             <p className="text-gray-700 mb-4">
-              I'm a passionate Full-Stack Developer with a keen interest in creating dynamic and responsive web applications.
+              I&apos;m a passionate Full-Stack Developer with a keen interest in creating dynamic and responsive web applications.
               With a love for problem-solving and a drive to learn new technologies, I constantly strive to improve my skills
               and contribute to open-source projects and real-world applications.
             </p>
