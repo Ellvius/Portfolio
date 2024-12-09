@@ -1,7 +1,9 @@
-import Image from "next/image";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
-    <div>hello nextjs</div>
+    <main className="flex min-h-screen container mx-auto">
+    <HeroSection />
+    </main>
   );
 }
