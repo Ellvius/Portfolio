@@ -1,5 +1,8 @@
-export default function Projects(){
+const Projects = () => {
     return (
-        <h1>Projects</h1>
-    )
+        <div className="flex min-h-screen container mx-auto justify-center items-center">
+            <h1>About</h1>
+        </div>    )
 }
+
+export default Projects;
