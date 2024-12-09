@@ -1,7 +1,7 @@
 const HeroSection = () => {
     return (
       <section className="min-h-screen w-full flex flex-col justify-center items-center bg-gray-900 text-white text-center px-6">
-        <h1 className="text-5xl font-bold mb-4">Hi, I'm Lishin V S</h1>
+        <h1 className="text-5xl font-bold mb-4">Hi, I&apos;m Lishin V S</h1>
         <p className="text-xl mb-6">
           A passionate <span className="text-indigo-400">Full-Stack Developer</span> dedicated to building
           beautiful, functional websites and applications.
