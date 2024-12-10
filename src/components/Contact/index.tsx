@@ -7,7 +7,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-center text-secondary mb-10">
-            I'd love to hear from you! Feel free to reach out for collaborations or just a friendly chat.
+            I&apos;d love to hear from you! Feel free to reach out for collaborations or just a friendly chat.
           </p>
   
           {/* Contact Form */}

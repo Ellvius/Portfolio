@@ -12,7 +12,7 @@ export default {
         primary: "#ADEFD1FF",
         secondary: "#00203FFF",
         dark: "#04151F",
-        light: "#D4ECDD" 
+        light: "#EBF4F6" 
       },
     },
   },
