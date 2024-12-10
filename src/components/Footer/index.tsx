@@ -1,9 +1,9 @@
 const Footer = () => {
     return (
-      <footer className="bg-gray-800 text-gray-300 py-6">
+      <footer className="bg-dark text-primary py-6">
         <div className="container mx-auto flex flex-col items-center">
           <p className="text-sm text-center mb-4">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Lishin V S. All rights reserved.
           </p>
           <div className="flex space-x-4">
             {/* Social media links */}

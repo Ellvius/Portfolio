@@ -15,17 +15,17 @@ const projectsData = [
 
 const ProjectSection = () => {
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h2 className="text-4xl font-bold mb-6 text-center">My Projects</h2>
+    <div className="bg-secondary container mx-auto px-4 py-12">
+      <h2 className="text-primary text-4xl font-bold mb-6 text-center">My Projects</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projectsData.map((project, index) => (
-          <div key={index} className="p-6 bg-gray-100 rounded-lg shadow">
-            <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-            <p className="text-gray-600 mb-4">{project.description}</p>
+          <div key={index} className="p-6 bg-light rounded-lg shadow">
+            <h3 className="text-secondary text-2xl font-bold mb-2">{project.title}</h3>
+            <p className="text-secondary mb-4">{project.description}</p>
               <a
                 target="_blank"
-                className="inline-block mt-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+                className="inline-block mt-2 bg-secondary text-white px-4 py-2 rounded-lg hover:bg-secondary"
               >
                 View Project
               </a>
@@ -36,7 +36,7 @@ const ProjectSection = () => {
       {/* Link to the Projects Route */}
       <div className="mt-8 text-center">
         <Link href="/projects">
-          <p className="text-blue-500 hover:underline text-lg font-semibold">
+          <p className="text-primary hover:underline text-lg font-semibold">
             See More Projects
           </p>
         </Link>

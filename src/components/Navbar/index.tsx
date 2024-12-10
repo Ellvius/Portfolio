@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-800 text-white">
+    <div className="bg-secondary text-primary">
       <div className="container mx-auto flex justify-between items-center py-4 px-4">
         {/* Header Section */}
         <div className="flex flex-col">
@@ -20,9 +20,6 @@ const Navbar = () => {
           </Link>
           <Link href="/projects" className="hover:underline">
             Projects
-          </Link>
-          <Link href="/contact" className="hover:underline">
-            Contact
           </Link>
         </nav>
       </div>
