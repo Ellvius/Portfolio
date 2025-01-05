@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className="min-h-screen container mx-auto">
+    <main className="min-h-screen mx-auto">
     <HeroSection />
     <IntroSection />
     <ProjectSection />
